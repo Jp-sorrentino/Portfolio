@@ -1,3 +1,3 @@
 # Portfolio
-# não consegui terminar a tempo 
+# em progresso
 https://jp-sorrentino.github.io/Portfolio/
