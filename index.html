@@ -9,9 +9,6 @@
   </head>
 
   <body>
-    <section id="emailjs">
-      <h1>jp.sorrentin@gmail.com</h1>
-    </section>
     <header>
       <div id="site-title">
         <img src="./assets/img/JPS LOGO.svg" " alt="Site logo" />
@@ -21,7 +18,9 @@
       </div>
       <nav>
         <ul id="nav">
-          <li class="menu"><a href="#about-section" id="about menu">About me</a></li>
+          <li class="menu">
+            <a href="#about-section" id="about menu">About me</a>
+          </li>
           <li class="menu">
             <a href="#projects" id="menuProjetos">Projects</a>
           </li>
@@ -39,19 +38,19 @@
           </div>
           <h3 id="specialization">Front-end Developer</h3>
           <a href="mailto:jp.sorrentin@gmail.com">
-          <button id="btn" >Get in contact with me</button>
-        </a>
+            <button id="btn">Get in contact with me</button>
+          </a>
         </div>
         <div id="joao-image">
           <img src="./assets/img/joao.png" " alt="Profile Picture" />
         </div>
       </section>
 
-      <article class="about-section">
+      <article id="about-section">
         <h2 id="about-title">About me</h2>
         <div id="about-text">
-          <p>
-            in my childhood I always explored several unknown tools and I always
+          <div id="text-about">
+            In my childhood I always explored several unknown tools and I always
             tried to solve my problems in the most efficient way possible, even
             if I spent hours having to learn something new, I knew that in the
             end it would be worth it because in the future my work would be
@@ -62,27 +61,30 @@
             ui/ux and decided that I would study to bring my visual concepts to
             life with the help of programming, I am studying daily to make this
             dream a reality and become a successful developer.
-          </p>
+          </div>
         </div>
       </article>
       <section id="projects">
         <h2>Projects</h2>
-        <img
-        src="./assets/img/projeto1.png"
-          height="90"
-          width="160"
-        />
-        <img
-        src="./assets/img/projeto2.png"
-          height="90"
-          width="160"
-        />
-        <img
-        src="./assets/img/projeto3.jpg"
-          height="90"
-          width="160"
-        />
+        <a
+          href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sorrentino-527a56203/"
+          target="_blank"
+        >
+          <img
+            id="pj-img"
+            src="./assets/img/projeto2.png"
+            height="180rem"
+            width="320rem"
+            alt="LinkedIn ico"
+          />
+        </a>
       </section>
+      <div id="button-pj">
+        <div>
+          <button id="btn">Switch Project</button>
+        </div>
+      </div>
+
       <section id="Knowledge">
         <h2>Knowledge</h2>
         <img
@@ -105,7 +107,6 @@
 
     <footer>
       <div id="contat-list">
-     
         <div>
           <a href="https://github.com/Jp-sorrentino" target="_blank">
             <img src="./assets/img/github.png" alt="Github ico" />
