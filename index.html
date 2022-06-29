@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio João Sorrentino</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="script.js"></script>
+
   </head>
 
   <body>
@@ -64,10 +66,14 @@
           </div>
         </div>
       </article>
-      <section id="projects">
+      
+      <div id="skills-text">
         <h2>Projects</h2>
-        <a
-          href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sorrentino-527a56203/"
+      </div>
+
+      <section id="projects">
+        <a 
+          href="https://github.com/Jp-sorrentino/Humor-Game"
           target="_blank"
         >
           <img
@@ -81,12 +87,16 @@
       </section>
       <div id="button-pj">
         <div>
-          <button id="btn">Switch Project</button>
+          <button onclick="mudarImagem()" type= button id="btn2" >Switch Project</button>
         </div>
+      </div>
+      
+      <div id="skills-text">
+        <h2>Knowledge</h2>
       </div>
 
       <section id="Knowledge">
-        <h2>Knowledge</h2>
+       
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           height="80"
@@ -102,24 +112,33 @@
           height="80"
           width="100"
         />
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
+        height="80"
+        width="100"
+      />
       </section>
     </main>
 
     <footer>
-      <div id="contat-list">
-        <div>
+      <div id="contact-list">
+        <div id="gitlink">
           <a href="https://github.com/Jp-sorrentino" target="_blank">
-            <img src="./assets/img/github.png" alt="Github ico" />
-            <p id="github">Github</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+            height="40"
+            width="40"
+            alt="Github ico" />
           </a>
         </div>
-        <div>
+        <div id ="gitlink">
           <a
             href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sorrentino-527a56203/"
             target="_blank"
           >
-            <img src="./assets/img/linkedin.png" alt="LinkedIn ico" />
-            <p id="linkedin">LinkedIn</p>
+            <img src="https://cdn.icon-icons.com/icons2/2429/PNG/512/linkedin_logo_icon_147268.png"
+            height="40"
+            width="40"
+             alt="LinkedIn ico" />
           </a>
         </div>
       </div>
