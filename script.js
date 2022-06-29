@@ -14,7 +14,7 @@ function mudarImagem() {
     } else if (i == 3) {
         elementImg.setAttribute("src", "assets/img/projeto2.jpg");}
     if (i > 2){
-            i = 0; // aqui ele zera pra voltar do início
+            i = 0;
          
 }
 }
